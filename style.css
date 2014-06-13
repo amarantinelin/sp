@@ -1,0 +1,61 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+	padding-top: 0px;
+	margin-bottom: 100px;
+	background-color: #252530;
+  color: #fff;
+}
+.navbar .navbar-inner{
+  background-color: #333;
+}
+h1>a{
+  color: #fff;
+}
+p{
+  margin-bottom: 0px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #333;
+}
+.span9>.container
+{
+  width: 900px;
+  background-color: #f3f3f4;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.themes, .row>.span3{
+   padding-left: 30px;
+}
+
+.nav-list> li{
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  list-style-type: none;
+}
+#desc{
+  border: none;
+  background-color: #252530;
+  color: #ccc;
+}
+select{
+  width: 180px;
+}
+/*@import url("css/bootstrap.min.css");
+@import url ("css/bootstrap-responsive.css");*/
